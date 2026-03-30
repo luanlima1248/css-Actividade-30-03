@@ -1,0 +1,18 @@
+
+.mural {
+  width: 910px;
+  background-color: #ddd;
+  margin: 0px auto; /* Centraliza o mural na tela */
+}
+
+.foto {
+  display: inline-block;
+  width: 300px;        /* Largura inicial */
+  padding: 20px;       /* Preenchimento interno */
+  border: 5px solid;   /* Moldura externa */
+  margin: 0px;
+  background: white;
+  box-sizing: border-box;
+}
+
+.foto img { width: 50%; } /* A foto ocupa o espaço interno do Pai */
